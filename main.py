@@ -87,8 +87,8 @@ app.secret_key = os.environ.get(
 )
 
 # Discord OAuth2 Credentials (Replace these with your values from Discord Developer Portal)
-CLIENT_ID = "YOUR_CLIENT_ID"
-CLIENT_SECRET = "YOUR_CLIENT_SECRET"
+CLIENT_ID = "1541430888494141450"
+CLIENT_SECRET = "s2vuNcDpIU2QYCcRhTVZc3PoR3oGGwYF"
 REDIRECT_URI = (
     "http://localhost:5000/callback"  # Update this when you host online
 )
