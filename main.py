@@ -195,4 +195,5 @@ if __name__ == "__main__":
   flask_thread.start()
 
   # Run your Discord bot using your bot token
-  bot.run("YOUR_DISCORD_BOT_TOKEN")
+  TOKEN = os.environ.get("DISCORD_TOKEN")
+bot.run(TOKEN)
