@@ -43,7 +43,7 @@
 
         p {
             color: var(--text-muted);
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         .status-badge {
@@ -55,6 +55,20 @@
             font-size: 14px;
             font-weight: 600;
             margin-bottom: 25px;
+        }
+
+        .features-list {
+            text-align: left;
+            background: #1e1f22;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .features-list b {
+            color: var(--text-main);
         }
 
         .btn {
@@ -81,13 +95,22 @@
 
     <div class="dashboard-container">
         <h1>Bot Dashboard</h1>
-        <p>Manage and monitor your Discord bot status seamlessly.</p>
+        <p>Manage and monitor your Discord bot.</p>
         
         <div>
             <span class="status-badge">● Bot Online</span>
         </div>
 
-        <a href="#" class="btn">Configure Settings</a>
+        <div class="features-list">
+            <b>Active Modules:</b>
+            <ul style="margin: 5px 0 0 20px; padding: 0;">
+                <li>Ticket System</li>
+                <li>Translation Tools</li>
+                <li>Server & Bot Stats</li>
+            </ul>
+        </div>
+
+        <a href="/configure" class="btn">Configure Settings</a>
     </div>
 
 </body>
